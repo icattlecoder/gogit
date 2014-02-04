@@ -1,4 +1,3 @@
-
 由于历史原由，git一直是被黑成比较难用的版本控制器。其实近年来git的用户界面已经被简化的非常简单了，配上github、bitbucket等hosting,已接近完美。
 git其实挺简单的，本文仅用了约150行golang代码即实现了git checkout功能，阅读本文之前，您应该读过《Git Pro》中的git内部原理一节。
 
@@ -212,4 +211,3 @@ ajaxupload     formupload   resumbleupload uptoken
 在运行gogit之前，删除掉了本地文件，运行gogit，所有文件恢复了，因此实现了`git checkout`功能。
 
 *本文的git checkout不能处理压缩过的git库*
-
